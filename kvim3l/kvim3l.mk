@@ -434,6 +434,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
    ro.product.firmware=00900001 \
    ro.product.otaupdateurl=http://dl.khadas.com:8089/otaupdate/update
 
+PRODUCT_PACKAGES += \
+   healthd
+
 #########################################################################
 #
 #                                     A/B update

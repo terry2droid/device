@@ -128,10 +128,5 @@ $(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-he
 
 
 
-#To remove healthd from the build
-PRODUCT_PACKAGES += android.hardware.health@2.0-service.override
-DEVICE_FRAMEWORK_MANIFEST_FILE += \
-	system/libhidl/vintfdata/manifest_healthd_exclude.xml
-
 #To keep healthd in the build
 PRODUCT_PACKAGES += android.hardware.health@2.0-service
